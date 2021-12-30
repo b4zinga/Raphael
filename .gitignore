@@ -1,0 +1,6 @@
+logs/*
+output/*
+!.gitkeep
+__pycache__
+*.py[cod]
+.DS_Store
