@@ -12,7 +12,7 @@ def cmdline_parser():
 
     parser.add_argument("-p", "--port", dest="port", help="target port")
 
-    parser.add_argument("-t", "--thread", dest="thread", default=5, help="number of thread, default 5")
+    parser.add_argument("-t", "--thread", dest="thread", type=int, default=5, help="number of thread, default 5")
     
     parser.add_argument("-e", "--error", action="store_true", help="show error message of plugins")
     parser.add_argument("-o", "--output", dest="output", default="output", help="report dir")
